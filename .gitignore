@@ -1,0 +1,17 @@
+# 编译产物
+bin/
+obj/
+
+# 运行时输出
+mer-out/
+test-out/
+
+# 合成测试图输出（保留 disk/square/tri 三张源图）
+syn/*.json
+syn/*.preview.png
+syn/*.trace.png
+syn/*.report.txt
+
+# 单文件发布产物 / 用户配置
+*.exe
+*.user
